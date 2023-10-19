@@ -6,7 +6,7 @@ import random
 
 t = turtle.Turtle()
 t.ht()
-
+t.screen.addshape('assets/Cell_tile.gif')
 t.screen.tracer(0)
 
 paused = True
@@ -19,7 +19,6 @@ def init_game():
     global t
     t.screen.setup(screensize[0], screensize[1])
     t.screen.onscreenclick(toggle_pause, 1)
-    # t.screen.onscreenclick(restart, 3)
 
     render_tick()
 

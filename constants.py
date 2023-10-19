@@ -1,1 +1,1 @@
-screensize = (600, 600)
+screensize = (800, 800)
